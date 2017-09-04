@@ -84,6 +84,9 @@ h2 {
 .blueBackground {
     background: lightskyblue;
 }
+.whiteBackground {
+    background: white;
+}
 .whiteText {
     color: white;
 }
@@ -94,14 +97,13 @@ h2 {
 .marginTop {
     margin-top: 50px;
 }
+.marginBottom {
+    margin-bottom: 25px;
+}
 
 /* *********************************
  *    Navigation                   *
  **********************************/
-
-.whiteBackground {
-    background: white;
-}
 .nav {
     list-style: none;
 }
@@ -137,26 +139,11 @@ h2 {
 /* *********************************
  *    Input AddOn                  *
  **********************************/
-.InputAddOn {
-    display: flex;
-    margin-bottom: 25px;
-}
-
-.InputAddOn-field {
-    flex: 1;
-}
-
-.InputAddOn-item {
-    background-color: rgba(147, 128, 108, 0.1);
-    color: #666666;
-    font: inherit;
-    font-weight: normal;
-}
-
-.InputAddOn-field,
-.InputAddOn-item {
+.entry {
     border: 1px solid rgba(147, 128, 108, 0.25);
     padding: 0.5em 0.75em;
+    background-color: rgba(147, 128, 108, 0.1);
+    color: #666666;
 }
 
 /* *********************************
