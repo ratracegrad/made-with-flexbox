@@ -17,4 +17,4 @@ The homepage provides links to all of the example layouts
 that we will be creating. You can click on any entry and 
 be shown that image in production.
 
-![Homepage Layout](https://github.com/ratracegrad/made-with-flexbox/images/homepage.png")
+![Homepage Layout](/images/homepage.png")
