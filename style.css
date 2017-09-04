@@ -1,0 +1,183 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    line-height: 1.428em;
+    color: #1e1e1e;
+    background-color: lightskyblue;
+}
+h2 {
+    text-align: center;
+}
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background: white;
+    border-radius: 8px;
+    padding: 50px; 25px;
+    border: 1px solid gray;
+    box-shadow: 7px 7px 7px #777777;
+}
+.homeButton {
+    background: lightskyblue;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.homeButtonInverse {
+    background: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+
+/* *********************************
+ *    Generic FlexBox Styling      *
+ **********************************/
+.flexContainer {
+    display: flex;
+}
+.flexItem {
+    flex: 1;
+}
+.flexStart {
+    justify-content: flex-start;
+}
+.flexCenter {
+    justify-content: center;
+}
+.flexEnd {
+    justify-content: flex-end;
+}
+.flexWrap {
+    flex-wrap: wrap;
+}
+.itemCenter {
+    align-items: center;
+}
+.flexColumn {
+    flex-direction: column;
+}
+.flexSpaceBetween {
+    justify-content: space-between;
+}
+.flexSpaceAround {
+    justify-content: space-around;
+}
+
+/* *********************************
+ *    Shared Styling               *
+ **********************************/
+.fullHeight {
+    height: 100vh;
+}
+.blueBackground {
+    background: lightskyblue;
+}
+.whiteText {
+    color: white;
+}
+.height50 {
+    height: 50px;
+    line-height: 50px;
+}
+.marginTop {
+    margin-top: 50px;
+}
+
+/* *********************************
+ *    Navigation                   *
+ **********************************/
+
+.whiteBackground {
+    background: white;
+}
+.nav {
+    list-style: none;
+}
+.nav a {
+    text-decoration: none;
+    display: block;
+    padding: 0 1em;
+    color: white;
+}
+
+
+/* *********************************
+ *    Responsive Website           *
+ **********************************/
+.main{
+    order: 2;
+    padding: 20px;
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+}
+.sidebar {
+    width: 20%;
+    background: white;
+    padding: 20px;
+}
+.sidebarLeft{
+    order: 1;
+}
+.sidebarRight{
+    order: 3;
+}
+
+/* *********************************
+ *    Input AddOn                  *
+ **********************************/
+.InputAddOn {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.InputAddOn-field {
+    flex: 1;
+}
+
+.InputAddOn-item {
+    background-color: rgba(147, 128, 108, 0.1);
+    color: #666666;
+    font: inherit;
+    font-weight: normal;
+}
+
+.InputAddOn-field,
+.InputAddOn-item {
+    border: 1px solid rgba(147, 128, 108, 0.25);
+    padding: 0.5em 0.75em;
+}
+
+/* *********************************
+ *    Center Image                 *
+ **********************************/
+.centerImage {
+    background: url('images/ocean.jpg') center;
+    background-size: cover;
+}
+
+/* *********************************
+ *    3 Column Layout              *
+ **********************************/
+.subContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+.col {
+    width: 32%;
+    border: 1px solid #777777;
+    border-radius: 8px;
+    background: white;
+    padding: 20px;
+}

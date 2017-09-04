@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="author" content="Jennifer Bland">
+        <meta name="description" content="Demonstration of layouts using FlexBox">
+        <title>Input Addon</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Input Addon</h2>
+            <p>With FlexBox it is easy to place an add-on to the start of an input or
+                a button to the end of an input. An add-on can be text or an image. An add-on
+                is used to explain to a user what type of information should be put in the
+                input field.</p>
+            <hr>
+            <h3>Example of Addon</h3>
+
+            <div class="InputAddOn">
+                <span class="InputAddOn-item">Amount</span>
+                <input class="InputAddOn-field">
+            </div>
+            <div class="InputAddOn">
+                <input class="InputAddOn-field">
+                <button class="InputAddOn-item">Submit</button>
+            </div>
+            <div class="InputAddOn">
+                <span class="InputAddOn-item">Amount</span>
+                <input class="InputAddOn-field">
+                <button class="InputAddOn-item">Submit</button>
+            </div>
+
+            <div class="flexContainer flexCenter itemCenter">
+                <a href="index.html" class="homeButton">Return Home</a>
+            </div>
+
+        </div>
+    </body>
+</html>
