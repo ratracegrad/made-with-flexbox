@@ -11,3 +11,10 @@ The CSS Flexible Box Layout – Flexbox – provides a simple solution to the de
 3. Responsive website layout
 4. AddOn for input fields
 5. 3 column layout
+
+## Home Page Layout
+The homepage provides links to all of the example layouts
+that we will be creating. You can click on any entry and 
+be shown that image in production.
+
+![Homepage Layout](https://github.com/ratracegrad/made-with-flexbox/images/homepage.png")
